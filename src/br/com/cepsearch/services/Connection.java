@@ -30,7 +30,7 @@ public class Connection {
             try {
                 ConvertJson convertJson = new ConvertJson(address);
             } catch (Exception e){
-                System.out.println("Deu errado ao escrever");
+                System.out.println("Deu errado ao enviar");
             }
 
         } catch (IOException | InterruptedException e) {
