@@ -1,0 +1,14 @@
+{
+  "cep": "38490-000",
+  "logradouro": "",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "",
+  "localidade": "Indianópolis",
+  "uf": "MG",
+  "ibge": "3130705",
+  "gia": "",
+  "ddd": "34",
+  "siafi": "4613",
+  "containAddress": false
+}

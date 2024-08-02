@@ -1,7 +1,6 @@
 package br.com.cepsearch.services;
 
-import br.com.cepsearch.modules.WriteAddress;
-
+import br.com.cepsearch.modules.ConvertJson;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -25,11 +24,11 @@ public class Connection {
 
             // Exibir a resposta
             String address = response.body();
-            System.out.println(address);
+            System.out.println("Enviando dados");
 
-            // Enviar a resposta pra ser escrita em txt
+            // Enviar a resposta pra ser tratada
             try {
-                WriteAddress writeAddress = new WriteAddress(address);
+                ConvertJson convertJson = new ConvertJson(address);
             } catch (Exception e){
                 System.out.println("Deu errado ao escrever");
             }
